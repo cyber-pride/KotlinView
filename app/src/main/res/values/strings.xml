@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">KotlinView</string>
+    <string name="startActivity">Start Activity</string>
+    <string name="disableonbackpress">Disable OnBackPress</string>
+    <string name="fabcolor">Fab Color</string>
+    <string name="alertdialog">Alert Dialog</string>
+    <string name="centerbtnprog">Center Button Prog</string>
+    <string name="materialeff">Material Effect Button</string>
+    <string name="circlebutton">Circle Button</string>
+    <string name="fabpro">Fab Programmatically</string>
+    <string name="onbackpressedexit">OnBackPressed Exit</string>
+    <string name="lowercasetextbutton">LowerCase Text Button</string>
+    <string name="disablebutton">Disable Button</string>
+    <string name="setmarginbutton">Set Margin Button</string>
+    <string name="getbuttontext">Get Button Text</string>
+    <string name="doubleclick">Disable Double Click</string>
+    <string name="changebutton">Change Button Text</string>
+    <string name="buttonprog">Button Programmatically</string>
+    <string name="anibutton">Animate Button</string>
+    <string name="tintprog">Tint Programmatically</string>
+    <string name="refreshactivity">Refresh Activity</string>
+    <string name="onclickbutton">OnClick Button</string>
+</resources>

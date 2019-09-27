@@ -1,0 +1,125 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_activityButton2"
+        android:title="@string/startActivity"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityButton3"
+        android:title="@string/disableonbackpress"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityButton4"
+        android:title="@string/fabcolor"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityButton5"
+        android:title="@string/alertdialog"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityButton6"
+        android:title="@string/centerbtnprog"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityButton7"
+        android:title="@string/materialeff"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityButton8"
+        android:title="@string/circlebutton"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityButton9"
+        android:title="@string/fabpro"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityButton10"
+        android:title="@string/onbackpressedexit"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityButton11"
+        android:title="@string/lowercasetextbutton"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityButton12"
+        android:title="@string/disablebutton"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityButton13"
+        android:title="@string/setmarginbutton"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityButton14"
+        android:title="@string/getbuttontext"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityButton15"
+        android:title="@string/changebutton"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityButton16"
+        android:title="@string/doubleclick"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityButton17"
+        android:title="@string/buttonprog"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityButton18"
+        android:title="@string/anibutton"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityButton19"
+        android:title="@string/tintprog"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityButton20"
+        android:title="@string/refreshactivity"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityButton21"
+        android:title="@string/onclickbutton"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+
+</menu>
