@@ -26,7 +26,7 @@ class ButtonActivity1 : AppCompatActivity() {
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         val inflater = menuInflater
-        inflater.inflate(com.bluapp.kotlinview.R.menu.button_option, menu)
+        inflater.inflate(R.menu.button_option, menu)
         return super.onCreateOptionsMenu(menu)
     }
 

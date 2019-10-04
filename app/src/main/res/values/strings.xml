@@ -20,4 +20,23 @@
     <string name="tintprog">Tint Programmatically</string>
     <string name="refreshactivity">Refresh Activity</string>
     <string name="onclickbutton">OnClick Button</string>
+    <string name="fullscreenimage">FullScreen Image</string>
+    <string name="circleimageview">Circle ImageView</string>
+    <string name="resizeimage">Resize Image</string>
+    <string name="uploadimage">Upload Image</string>
+    <string name="compressimage">Compress Image</string>
+    <string name="cropimage">Crop Image</string>
+    <string name="imageoncanvas">Image On Canvas</string>
+    <string name="textoverimage">Text Over Image</string>
+    <string name="zommimage">Zoom Image</string>
+    <string name="imageonclick">Image OnClick</string>
+    <string name="rotateimage">Rotate Image</string>
+    <string name="databindingimage">DataBinding Image</string>
+    <string name="imagetobytearray">Image To ByteArray</string>
+    <string name="roundedimage">Rounded Image</string>
+    <string name="imagevisibility">Image Visibility</string>
+    <string name="imagebackground">Image Background</string>
+    <string name="borderimage">Border Image</string>
+    <string name="aniimage">Animate Image</string>
+    <string name="progimageview">Programmatically ImageView</string>
 </resources>

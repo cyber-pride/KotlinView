@@ -5,6 +5,9 @@
 
     <dist:module dist:instant="true" />
 
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -12,7 +15,30 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Button.ButtonActivity21"></activity>
+        <activity android:name=".imageView.ImageViewActivity20"></activity>
+        <activity android:name=".imageView.ImageViewActivity19" />
+        <activity android:name=".imageView.ImageViewActivity18" />
+        <activity android:name=".imageView.ImageViewActivity17" />
+        <activity android:name=".imageView.ImageViewActivity16" />
+        <activity android:name=".imageView.ImageViewActivity15" />
+        <activity android:name=".imageView.ImageViewActivity14" />
+        <activity android:name=".imageView.ImageViewActivity13" />
+        <activity android:name=".imageView.ImageViewActivity12" />
+        <activity android:name=".imageView.ImageViewActivity11" />
+        <activity android:name=".imageView.ImageViewActivity10" />
+        <activity android:name=".imageView.ImageViewActivity9" />
+        <activity android:name=".imageView.ImageViewActivity8" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity android:name=".imageView.ImageViewActivity7" />
+        <activity android:name=".imageView.ImageViewActivity6" />
+        <activity android:name=".imageView.ImageViewActivity5" />
+        <activity android:name=".imageView.ImageViewActivity4" />
+        <activity android:name=".imageView.ImageViewActivity3" />
+        <activity android:name=".imageView.ImageViewActivity2" />
+        <activity android:name=".imageView.ImageViewActivity1" />
+        <activity android:name=".Button.ButtonActivity21" />
         <activity android:name=".Button.ButtonActivity20" />
         <activity android:name=".Button.ButtonActivity19" />
         <activity android:name=".Button.ButtonActivity18" />

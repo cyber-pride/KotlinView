@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "388547521871",
+    "firebase_url": "https://kotlinview.firebaseio.com",
+    "project_id": "kotlinview",
+    "storage_bucket": "kotlinview.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388547521871:android:9e31f2eaeedeab287c293a",
+        "android_client_info": {
+          "package_name": "com.bluapp.kotlinview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "388547521871-g9vv3cki1dke5i992jg17mfmif3ipm0u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8adHMOc-ocExSTJFhAJ0SLHj0nMCNrzg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "388547521871-g9vv3cki1dke5i992jg17mfmif3ipm0u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
