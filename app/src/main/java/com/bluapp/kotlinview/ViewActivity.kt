@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import com.bluapp.kotlinview.Button.ButtonActivity1
+import com.bluapp.kotlinview.EditText.EditTextActivity1
 import com.bluapp.kotlinview.imageView.ImageViewActivity1
 
 class ViewActivity : AppCompatActivity() {
@@ -19,6 +20,8 @@ class ViewActivity : AppCompatActivity() {
             startActivity(Intent(this@ViewActivity, ButtonActivity1::class.java))
         }else if(view.id == R.id.imageview){
             startActivity(Intent(this@ViewActivity, ImageViewActivity1::class.java))
+        }else if(view.id == R.id.edittext){
+            startActivity(Intent(this@ViewActivity, EditTextActivity1::class.java))
         }
     }
 

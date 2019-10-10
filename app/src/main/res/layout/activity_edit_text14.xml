@@ -4,6 +4,6 @@
     android:id="@+id/relativeLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".imageView.ImageViewActivity20">
+    tools:context=".EditText.EditTextActivity14">
 
 </RelativeLayout>

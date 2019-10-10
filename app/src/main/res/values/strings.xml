@@ -39,4 +39,23 @@
     <string name="borderimage">Border Image</string>
     <string name="aniimage">Animate Image</string>
     <string name="progimageview">Programmatically ImageView</string>
+    <string name="emptyedittext">Empty EditText Check</string>
+    <string name="hideandshowpass">Hide And Show Pass</string>
+    <string name="progsetid">Programmatically Set Id</string>
+    <string name="progdisableandenable">Programmatical Disable And Enable</string>
+    <string name="closekeyboard">Close SoftKeyboard</string>
+    <string name="stopfocus">Stop Focus</string>
+    <string name="cursorcolor">Cursor Color</string>
+    <string name="limitlength">Limit Length</string>
+    <string name="edittextborder">EditText Border</string>
+    <string name="edittexttextcolor">EditText Text Color</string>
+    <string name="getedittextinput">Get EditText Input</string>
+    <string name="clearedittext">Clear EditText</string>
+    <string name="edittextprog">EditText Programmatically</string>
+    <string name="edittextwithroundedcorner">EditText With Rounded Corner</string>
+    <string name="edittextonclick">EditText OnClick</string>
+    <string name="edittexttextwatcher">EditText TextWatcher</string>
+    <string name="edittextdialog">EditText Dialog</string>
+    <string name="getnumericvalue">Get Numeric Value</string>
+    <string name="edittextshadow">EditText Shadow</string>
 </resources>

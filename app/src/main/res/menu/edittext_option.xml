@@ -1,0 +1,118 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_activityedittext2"
+        android:title="@string/emptyedittext"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityedittext3"
+        android:title="@string/hideandshowpass"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityedittext4"
+        android:title="@string/progsetid"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityedittext5"
+        android:title="@string/progdisableandenable"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityedittext6"
+        android:title="@string/closekeyboard"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityedittext7"
+        android:title="@string/stopfocus"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityedittext8"
+        android:title="@string/cursorcolor"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityedittext9"
+        android:title="@string/limitlength"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityedittext10"
+        android:title="@string/edittextborder"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityedittext11"
+        android:title="@string/edittexttextcolor"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityedittext12"
+        android:title="@string/getedittextinput"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityedittext13"
+        android:title="@string/clearedittext"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityedittext14"
+        android:title="@string/edittextprog"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityedittext15"
+        android:title="@string/edittextwithroundedcorner"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityedittext16"
+        android:title="@string/edittextonclick"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityedittext17"
+        android:title="@string/edittexttextwatcher"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityedittext18"
+        android:title="@string/edittextdialog"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityedittext19"
+        android:title="@string/getnumericvalue"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityedittext20"
+        android:title="@string/edittextshadow"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+</menu>
