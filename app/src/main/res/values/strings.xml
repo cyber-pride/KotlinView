@@ -58,4 +58,23 @@
     <string name="edittextdialog">EditText Dialog</string>
     <string name="getnumericvalue">Get Numeric Value</string>
     <string name="edittextshadow">EditText Shadow</string>
+    <string name="paddingtextview">Padding TextView</string>
+    <string name="margintextview">Margin TextView</string>
+    <string name="roundedcornertextview">Rounded Corner TextView</string>
+    <string name="htmlintextview">Html In TextView</string>
+    <string name="backgroundtextviewcolor">Background TextView Color</string>
+    <string name="gettextviewvalue">Get TextView Value</string>
+    <string name="settexttotextview">Set Text To TextView</string>
+    <string name="customfonttextview">Custom Font TextView</string>
+    <string name="textviewwithunderline">TextView With Underline</string>
+    <string name="textviewwithstrike">TextView With Strike</string>
+    <string name="progradiobutton">Programmatically Radio Button</string>
+    <string name="radiogrouporientation">Radio Group Orientation</string>
+    <string name="radiobuttoncolor">Radio Button Color</string>
+    <string name="enableanddisableradio">Enable And Disable Radio</string>
+    <string name="clearradiogroup">Clear Radio Group</string>
+    <string name="radiogrouponcheckchangelistner">Radio Group OnCheckChangeListner</string>
+    <string name="radiobuttontext">Radio Button Text</string>
+    <string name="radiobuttontextcolor">Radio Button TextColor</string>
+    <string name="getselectedradiobutton">Get Selected RadioButton</string>
 </resources>

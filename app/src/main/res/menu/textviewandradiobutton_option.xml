@@ -1,0 +1,118 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_activityTextViewAndRadioButton2"
+        android:title="@string/paddingtextview"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityTextViewAndRadioButton3"
+        android:title="@string/margintextview"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityTextViewAndRadioButton4"
+        android:title="@string/roundedcornertextview"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityTextViewAndRadioButton5"
+        android:title="@string/htmlintextview"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityTextViewAndRadioButton6"
+        android:title="@string/backgroundtextviewcolor"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityTextViewAndRadioButton7"
+        android:title="@string/gettextviewvalue"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityTextViewAndRadioButton8"
+        android:title="@string/settexttotextview"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityTextViewAndRadioButton9"
+        android:title="@string/customfonttextview"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityTextViewAndRadioButton10"
+        android:title="@string/textviewwithunderline"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityTextViewAndRadioButton11"
+        android:title="@string/textviewwithstrike"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityTextViewAndRadioButton12"
+        android:title="@string/progradiobutton"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityTextViewAndRadioButton13"
+        android:title="@string/radiogrouporientation"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityTextViewAndRadioButton14"
+        android:title="@string/radiobuttoncolor"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityTextViewAndRadioButton15"
+        android:title="@string/enableanddisableradio"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityTextViewAndRadioButton16"
+        android:title="@string/clearradiogroup"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityTextViewAndRadioButton17"
+        android:title="@string/radiogrouponcheckchangelistner"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityTextViewAndRadioButton18"
+        android:title="@string/radiobuttontext"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityTextViewAndRadioButton19"
+        android:title="@string/radiobuttontextcolor"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityTextViewAndRadioButton20"
+        android:title="@string/getselectedradiobutton"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+</menu>
