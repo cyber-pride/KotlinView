@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import com.bluapp.kotlinview.Button.ButtonActivity1
+import com.bluapp.kotlinview.CheckBox.CheckBoxActivity1
 import com.bluapp.kotlinview.EditText.EditTextActivity1
 import com.bluapp.kotlinview.TextViewAndRadioButton.TextViewAndRadioButtonActivity1
 import com.bluapp.kotlinview.imageView.ImageViewActivity1
@@ -25,6 +26,8 @@ class ViewActivity : AppCompatActivity() {
             startActivity(Intent(this@ViewActivity, EditTextActivity1::class.java))
         }else if(view.id == R.id.textviewandradiobutton){
             startActivity(Intent(this@ViewActivity, TextViewAndRadioButtonActivity1::class.java))
+        }else if(view.id == R.id.checkbox){
+            startActivity(Intent(this@ViewActivity, CheckBoxActivity1::class.java))
         }
     }
 

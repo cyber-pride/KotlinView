@@ -77,4 +77,23 @@
     <string name="radiobuttontext">Radio Button Text</string>
     <string name="radiobuttontextcolor">Radio Button TextColor</string>
     <string name="getselectedradiobutton">Get Selected RadioButton</string>
+    <string name="customimagecheckbox">Custom Image CheckBox</string>
+    <string name="rightpositioncheckbox">Right Position CheckBox</string>
+    <string name="checkboxtextsize">CheckBox TextSize</string>
+    <string name="getcheckboxvalue">Get CheckBox Value</string>
+    <string name="addorremovecheckbox">Add Or Remove CheckBox</string>
+    <string name="checkboxinrecyclerview">CheckBox In RecyclerView</string>
+    <string name="checkboxalertdialog">CheckBox AlertDialog</string>
+    <string name="getcheckedcheckboxvalue">Get Checked CheckBox Value</string>
+    <string name="checkboxtextcolor">CheckBox TextColor</string>
+    <string name="checkboxfont">CheckBox Font</string>
+    <string name="storecheckboxstate">Store CheckBox State</string>
+    <string name="resetcheckbox">Reset CheckBox</string>
+    <string name="disableorenablecheckbox">Disable Or Enable CheckBox</string>
+    <string name="oncheckedchangelistenercheckbox">OnCheckedChangeListener CheckBox</string>
+    <string name="checkboxpadding">CheckBox Padding</string>
+    <string name="checkboxbordercolor">CheckBox Border Color</string>
+    <string name="groupcheckbox">Group CheckBox</string>
+    <string name="checkboxdefaultvalue">CheckBox Default Value</string>
+    <string name="multilinetextcheckbox">Multiline Text CheckBox</string>
 </resources>

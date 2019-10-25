@@ -1,0 +1,118 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_activitycheckbox2"
+        android:title="@string/customimagecheckbox"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activitycheckbox3"
+        android:title="@string/rightpositioncheckbox"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activitycheckbox4"
+        android:title="@string/checkboxtextsize"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activitycheckbox5"
+        android:title="@string/getcheckedcheckboxvalue"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activitycheckbox6"
+        android:title="@string/addorremovecheckbox"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activitycheckbox7"
+        android:title="@string/checkboxinrecyclerview"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activitycheckbox8"
+        android:title="@string/checkboxalertdialog"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activitycheckbox9"
+        android:title="@string/getcheckboxvalue"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activitycheckbox10"
+        android:title="@string/checkboxtextcolor"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activitycheckbox11"
+        android:title="@string/checkboxfont"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activitycheckbox12"
+        android:title="@string/storecheckboxstate"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activitycheckbox13"
+        android:title="@string/resetcheckbox"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activitycheckbox14"
+        android:title="@string/disableorenablecheckbox"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activitycheckbox15"
+        android:title="@string/oncheckedchangelistenercheckbox"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activitycheckbox16"
+        android:title="@string/checkboxpadding"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activitycheckbox17"
+        android:title="@string/checkboxbordercolor"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activitycheckbox18"
+        android:title="@string/groupcheckbox"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activitycheckbox19"
+        android:title="@string/checkboxdefaultvalue"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activitycheckbox20"
+        android:title="@string/multilinetextcheckbox"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+</menu>
