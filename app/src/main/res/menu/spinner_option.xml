@@ -1,0 +1,118 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_activityspinner2"
+        android:title="@string/spinnertextcolor"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityspinner3"
+        android:title="@string/spinnertextsize"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityspinner4"
+        android:title="@string/spinnerhint"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityspinner5"
+        android:title="@string/roundcornerspinner"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityspinner6"
+        android:title="@string/spinnerbordercolor"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityspinner7"
+        android:title="@string/spinnerbackgroundcolor"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityspinner8"
+        android:title="@string/customspinnerimagetext"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityspinner9"
+        android:title="@string/spinneritemvalue"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityspinner10"
+        android:title="@string/spinneritemcolor"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityspinner11"
+        android:title="@string/enableanddisablespinner"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityspinner12"
+        android:title="@string/populatespinnerxml"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityspinner13"
+        android:title="@string/populatespinnerstring"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityspinner14"
+        android:title="@string/populatespinnerroomdb"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityspinner15"
+        android:title="@string/populatespinnerapi"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityspinner16"
+        android:title="@string/onitemselectedlistnerspinner"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityspinner17"
+        android:title="@string/spinnerinalertdialog"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityspinner18"
+        android:title="@string/spinnernotifydatasetchange"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityspinner19"
+        android:title="@string/spinnerdatabinding"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityspinner20"
+        android:title="@string/spinnerremoveitem"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+</menu>

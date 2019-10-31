@@ -96,4 +96,33 @@
     <string name="groupcheckbox">Group CheckBox</string>
     <string name="checkboxdefaultvalue">CheckBox Default Value</string>
     <string name="multilinetextcheckbox">Multiline Text CheckBox</string>
+    <string name="spinnertextcolor">Spinner TextColor</string>
+    <string name="spinnertextsize">Spinner TextSize</string>
+    <string name="spinnerhint">Spinner Hint</string>
+    <string name="roundcornerspinner">Round Corner Spinner</string>
+    <string name="spinnerbordercolor">Spinner Border Color</string>
+    <string name="spinnerbackgroundcolor">Spinner Background Color</string>
+    <string name="customspinnerimagetext">Custom Spinner Image Text</string>
+    <string name="spinneritemcolor">Spinner Item Color</string>
+    <string name="spinneritemvalue">Spinner ItemValue</string>
+    <string name="enableanddisablespinner">Enable And Disable Spinner</string>
+    <string name="populatespinnerxml">Populate Spinner Xml</string>
+    <string-array name="user_name">
+        <item>Henry</item>
+        <item>Mark</item>
+        <item>Jack</item>
+        <item>Smith</item>
+        <item>Clark</item>
+        <item>Kelvin</item>
+        <item>Denzel</item>
+    </string-array>
+    <string name="populatespinnerstring">Populate Spinner String</string>
+    <string name="populatespinnerroomdb">Populate Spinner Room Db</string>
+<string name="populatespinnerapi">Populate Spinner Api</string>
+    <string name="loading">Loading...</string>
+    <string name="onitemselectedlistnerspinner">OnItemSelectedListner Spinner</string>
+    <string name="spinnerinalertdialog">Spinner In AlertDialog</string>
+    <string name="spinnernotifydatasetchange">Spinner NotifyDataSetChange</string>
+    <string name="spinnerremoveitem">Spinner Remove Item</string>
+    <string name="spinnerdatabinding">Spinner Databinding</string>
 </resources>

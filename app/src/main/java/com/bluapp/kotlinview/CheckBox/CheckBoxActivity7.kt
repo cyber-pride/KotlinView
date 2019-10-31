@@ -46,7 +46,7 @@ class CheckBoxActivity7 : AppCompatActivity() {
     private inner class CustomDividerItemDecoration(context: Context) : RecyclerView.ItemDecoration() {
         private val drawableline: Drawable?
         init {
-            drawableline = ContextCompat.getDrawable(context, com.bluapp.kotlinview.R.drawable.recyclerline)
+            drawableline = ContextCompat.getDrawable(context, R.drawable.recyclerline)
         }
         override fun onDrawOver(c: Canvas, parent: RecyclerView, state: RecyclerView.State) {
             val left = parent.paddingLeft
