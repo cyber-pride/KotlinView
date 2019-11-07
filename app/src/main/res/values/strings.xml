@@ -118,11 +118,30 @@
     </string-array>
     <string name="populatespinnerstring">Populate Spinner String</string>
     <string name="populatespinnerroomdb">Populate Spinner Room Db</string>
-<string name="populatespinnerapi">Populate Spinner Api</string>
+    <string name="populatespinnerapi">Populate Spinner Api</string>
     <string name="loading">Loading...</string>
     <string name="onitemselectedlistnerspinner">OnItemSelectedListner Spinner</string>
     <string name="spinnerinalertdialog">Spinner In AlertDialog</string>
     <string name="spinnernotifydatasetchange">Spinner NotifyDataSetChange</string>
     <string name="spinnerremoveitem">Spinner Remove Item</string>
     <string name="spinnerdatabinding">Spinner Databinding</string>
+    <string name="multipleviewrecyclerview">Multiple View RecyclerView</string>
+    <string name="horizlistrecyclerview">Horiz List RecyclerView</string>
+    <string name="recyclerviewlinearlayoutmanager">RecyclerView LinearLayoutManager</string>
+    <string name="recyclerviewonnextedscrollview">RecyclerView On NextedScrollView</string>
+    <string name="recyclerviewgridlayoutmanager">RecyclerView GridLayoutManager</string>
+    <string name="endlessrecyclerview">Endless RecyclerView</string>
+    <string name="recyclerviewonclick">Recyclerview OnClick</string>
+    <string name="recyclerviewswipedismiss">RecyclerView SwipeDismiss</string>
+    <string name="recyclerviewnotifydatasetchange">RecyclerView NotifyDataSetChange</string>
+    <string name="expandablerecyclerview">Expandable Recyclerview</string>
+    <string name="recyclerviewdatabinding">Recyclerview Databinding</string>
+    <string name="addorremoveitem">Add Or Remove Item</string>
+    <string name="recyclerviewsearch">Recycler View Search</string>
+    <string name="recyclerviewwithheader">RecyclerView With Header</string>
+    <string name="emptyviewrecyclerview">Empty View RecyclerView</string>
+    <string name="positionrecyclerview">Position RecyclerView</string>
+    <string name="disablerecyclerviewscroll">Disable RecyclerView Scroll</string>
+    <string name="selecteditemcolor">Selected Item Color</string>
+    <string name="recyclerviewvisibleitem">RecyclerView Visible Item</string>
 </resources>

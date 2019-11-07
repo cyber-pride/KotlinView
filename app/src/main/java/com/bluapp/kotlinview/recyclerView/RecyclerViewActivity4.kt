@@ -1,29 +1,26 @@
-package com.bluapp.kotlinview.CheckBox
+package com.bluapp.kotlinview.recyclerView
 
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
-import com.bluapp.kotlinview.R
-import androidx.recyclerview.widget.RecyclerView
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.core.content.ContextCompat
-import android.graphics.drawable.Drawable
 import android.content.Context
 import android.graphics.Canvas
-import android.widget.TextView
+import android.graphics.drawable.Drawable
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.TextView
+import androidx.core.content.ContextCompat
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
+import com.bluapp.kotlinview.R
 
-
-
-
-class CheckBoxActivity7 : AppCompatActivity() {
+class RecyclerViewActivity4 : AppCompatActivity() {
     private var list: RecyclerView? = null
     private var recyclerAdapter: adapter? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_check_box7)
+        setContentView(R.layout.activity_recycler_view4)
         list = findViewById(R.id.list) as RecyclerView
         val country = arrayListOf<String>()
         country.add("Nigeria")
@@ -36,10 +33,11 @@ class CheckBoxActivity7 : AppCompatActivity() {
         country.add("Argentina")
         country.add("Andorra")
         country.add("Togo")
+
         val layoutManager = LinearLayoutManager(this)
         list!!.layoutManager = layoutManager
-        recyclerAdapter = adapter(this@CheckBoxActivity7, country)
-        list!!.addItemDecoration(CustomDividerItemDecoration(this@CheckBoxActivity7))
+        recyclerAdapter = adapter(this@RecyclerViewActivity4, country)
+        list!!.addItemDecoration(CustomDividerItemDecoration(this@RecyclerViewActivity4))
         list!!.adapter = recyclerAdapter
     }
 
@@ -63,31 +61,23 @@ class CheckBoxActivity7 : AppCompatActivity() {
         }
     }
 
-    private inner class adapter(internal var context: Context, internal var mData: List<String>) :
-        RecyclerView.Adapter<adapter.myViewHolder>() {
-
+    private inner class adapter(internal var context: Context, internal var mData: List<String>) : RecyclerView.Adapter<adapter.myViewHolder>() {
         override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): adapter.myViewHolder {
             val view =
-                LayoutInflater.from(context).inflate(R.layout.checkbox_adapter1, parent, false)
+                LayoutInflater.from(context).inflate(R.layout.recyclerview_adapter1, parent, false)
             return myViewHolder(view)
         }
-
         override fun onBindViewHolder(holder: adapter.myViewHolder, position: Int) {
             holder.country.text = mData[position]
         }
-
         override fun getItemCount(): Int {
             return mData.size
         }
-
         inner class myViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
             internal var country: TextView
-
             init {
                 country = itemView.findViewById(R.id.country)
             }
         }
     }
-
-
 }

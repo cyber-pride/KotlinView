@@ -1,0 +1,117 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_activityrecyclerview2"
+        android:title="@string/multipleviewrecyclerview"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityrecyclerview3"
+        android:title="@string/horizlistrecyclerview"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityrecyclerview4"
+        android:title="@string/recyclerviewlinearlayoutmanager"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityrecyclerview5"
+        android:title="@string/recyclerviewvisibleitem"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityrecyclerview6"
+        android:title="@string/recyclerviewonnextedscrollview"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityrecyclerview7"
+        android:title="@string/recyclerviewgridlayoutmanager"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityrecyclerview8"
+        android:title="@string/endlessrecyclerview"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityrecyclerview9"
+        android:title="@string/recyclerviewonclick"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityrecyclerview10"
+        android:title="@string/recyclerviewnotifydatasetchange"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityrecyclerview11"
+        android:title="@string/recyclerviewswipedismiss"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityrecyclerview12"
+        android:title="@string/expandablerecyclerview"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityrecyclerview13"
+        android:title="@string/recyclerviewdatabinding"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityrecyclerview14"
+        android:title="@string/addorremoveitem"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityrecyclerview15"
+        android:title="@string/recyclerviewsearch"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityrecyclerview16"
+        android:title="@string/recyclerviewwithheader"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityrecyclerview17"
+        android:title="@string/emptyviewrecyclerview"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityrecyclerview18"
+        android:title="@string/positionrecyclerview"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityrecyclerview19"
+        android:title="@string/disablerecyclerviewscroll"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activityrecyclerview20"
+        android:title="@string/selecteditemcolor"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+</menu>
