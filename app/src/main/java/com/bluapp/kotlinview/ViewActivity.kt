@@ -7,6 +7,7 @@ import android.view.View
 import com.bluapp.kotlinview.Button.ButtonActivity1
 import com.bluapp.kotlinview.CheckBox.CheckBoxActivity1
 import com.bluapp.kotlinview.EditText.EditTextActivity1
+import com.bluapp.kotlinview.Tab.TabActivity1
 import com.bluapp.kotlinview.recyclerView.RecyclerViewActivity1
 import com.bluapp.kotlinview.spinner.SpinnerActivity1
 import com.bluapp.kotlinview.TextViewAndRadioButton.TextViewAndRadioButtonActivity1
@@ -35,7 +36,7 @@ class ViewActivity : AppCompatActivity() {
         }else if(view.id == R.id.recyclerview){
             startActivity(Intent(this@ViewActivity, RecyclerViewActivity1::class.java))
         }else if(view.id == R.id.tab){
-          //  startActivity(Intent(this@ViewActivity, TabActivity1::class.java))
+            startActivity(Intent(this@ViewActivity, TabActivity1::class.java))
         }
     }
 
