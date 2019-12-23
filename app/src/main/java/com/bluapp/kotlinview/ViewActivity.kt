@@ -34,6 +34,8 @@ class ViewActivity : AppCompatActivity() {
             startActivity(Intent(this@ViewActivity, SpinnerActivity1::class.java))
         }else if(view.id == R.id.recyclerview){
             startActivity(Intent(this@ViewActivity, RecyclerViewActivity1::class.java))
+        }else if(view.id == R.id.tab){
+          //  startActivity(Intent(this@ViewActivity, TabActivity1::class.java))
         }
     }
 
