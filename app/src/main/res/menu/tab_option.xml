@@ -61,4 +61,10 @@
         android:orderInCategory="100"
         app:showAsAction="never" />
 
+    <item
+        android:id="@+id/action_activitytab12"
+        android:title="@string/currenttabindicatorbackground"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
 </menu>

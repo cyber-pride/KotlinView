@@ -108,6 +108,10 @@ class TabActivity1 : AppCompatActivity() {
                 startActivity(Intent(this@TabActivity1, TabActivity11::class.java))
                 return true
             }
+            R.id.action_activitytab12 -> {
+                startActivity(Intent(this@TabActivity1, TabActivity12::class.java))
+                return true
+            }
         }
 
         return true
