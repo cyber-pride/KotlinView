@@ -37,4 +37,10 @@
         android:orderInCategory="100"
         app:showAsAction="never" />
 
+    <item
+        android:id="@+id/action_activitytab8"
+        android:title="@string/selecttabprogrammatically"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
 </menu>
