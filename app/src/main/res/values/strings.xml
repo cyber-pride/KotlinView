@@ -158,4 +158,5 @@
     <string name="ontabchangelistner">OnTabChange Listner</string>
     <string name="detectonclickoncurrenttab">Detect OnClick On Current Tab</string>
     <string name="currenttabindicatorbackground">CurrentTab Indicator Background</string>
+    <string name="currenttabposition">Current Tab Position</string>
 </resources>

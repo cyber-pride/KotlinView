@@ -67,4 +67,10 @@
         android:orderInCategory="100"
         app:showAsAction="never" />
 
+    <item
+        android:id="@+id/action_activitytab13"
+        android:title="@string/currenttabposition"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
 </menu>
