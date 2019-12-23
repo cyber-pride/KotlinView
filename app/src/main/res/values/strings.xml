@@ -163,4 +163,5 @@
     <string name="longclicklistnerontab">LongClickListner On Tab</string>
     <string name="tabinsidefragment">Tab Inside Fragment</string>
     <string name="tabhost">Tab Host</string>
+    <string name="passdatatotwotab">Pass Data To Two Tab</string>
 </resources>

@@ -15,7 +15,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Tab.TabHostActivity"></activity>
+        <activity android:name=".Tab.TabActivity18"></activity>
+        <activity android:name=".Tab.TabHostActivity" />
         <activity android:name=".Tab.TabActivity17" />
         <activity android:name=".Tab.TabActivity16" />
         <activity android:name=".Tab.TabActivity15" />

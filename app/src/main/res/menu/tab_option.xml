@@ -97,4 +97,10 @@
         android:orderInCategory="100"
         app:showAsAction="never" />
 
+    <item
+        android:id="@+id/action_activitytab18"
+        android:title="@string/passdatatotwotab"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
 </menu>
