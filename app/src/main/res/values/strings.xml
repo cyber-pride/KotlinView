@@ -160,4 +160,5 @@
     <string name="currenttabindicatorbackground">CurrentTab Indicator Background</string>
     <string name="currenttabposition">Current Tab Position</string>
     <string name="swipeviewwithtab">Swipe View With Tab</string>
+    <string name="longclicklistnerontab">LongClickListner On Tab</string>
 </resources>

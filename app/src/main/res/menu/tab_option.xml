@@ -79,4 +79,10 @@
         android:orderInCategory="100"
         app:showAsAction="never" />
 
+    <item
+        android:id="@+id/action_activitytab15"
+        android:title="@string/longclicklistnerontab"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
 </menu>
