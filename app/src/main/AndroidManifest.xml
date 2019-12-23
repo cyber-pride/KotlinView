@@ -15,7 +15,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Tab.TabActivity1"></activity>
+        <activity android:name=".Tab.TabActivity2"></activity>
+        <activity android:name=".Tab.TabActivity1" />
         <activity android:name=".recyclerView.RecyclerViewActivity20" />
         <activity android:name=".recyclerView.RecyclerViewActivity19" />
         <activity android:name=".recyclerView.RecyclerViewActivity18" />
