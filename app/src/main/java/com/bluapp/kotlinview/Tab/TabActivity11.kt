@@ -1,35 +1,39 @@
 package com.bluapp.kotlinview.Tab
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.Handler
+import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
 import androidx.viewpager.widget.ViewPager
 import com.bluapp.kotlinview.R
 import com.google.android.material.tabs.TabLayout
+import com.google.android.material.tabs.TabLayout.OnTabSelectedListener
 
-class TabActivity8 : AppCompatActivity() {
+
+class TabActivity11 : AppCompatActivity() {
     private var tabLayout: TabLayout? = null
     private var viewPager: ViewPager? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_tab8)
+        setContentView(R.layout.activity_tab11)
         tabLayout = findViewById(R.id.tabs) as TabLayout
         viewPager = findViewById(R.id.viewpager) as ViewPager
         viewPager!!.setAdapter(MyAdapter(supportFragmentManager))
         tabLayout!!.post(Runnable { tabLayout!!.setupWithViewPager(viewPager) })
-        selectTab(3)
-
+        setclick()
     }
 
-    private fun selectTab(index: Int) {
-        Handler().postDelayed(Runnable {
-            tabLayout!!.setScrollPosition(index, 0f, true)
-            viewPager!!.currentItem = index
-        }, 100)
+    private fun setclick() {
+        tabLayout!!.addOnTabSelectedListener(object : OnTabSelectedListener {
+            override fun onTabSelected(tab: TabLayout.Tab) {
+                Toast.makeText(this@TabActivity11, "Tab Clicked", Toast.LENGTH_LONG).show()
+            }
+            override fun onTabUnselected(tab: TabLayout.Tab) {}
+            override fun onTabReselected(tab: TabLayout.Tab) {}
+        })
     }
 
 
@@ -63,4 +67,5 @@ class TabActivity8 : AppCompatActivity() {
             return null
         }
     }
+
 }

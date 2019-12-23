@@ -22,7 +22,7 @@ class TabActivity3 : AppCompatActivity() {
         viewPager = findViewById(R.id.viewpager) as ViewPager
         viewPager!!.setAdapter(MyAdapter(supportFragmentManager))
         tabLayout!!.post(Runnable { tabLayout!!.setupWithViewPager(viewPager) })
-        selectDefaultTab(3);
+        selectDefaultTab(3)
 
     }
 

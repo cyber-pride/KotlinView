@@ -156,4 +156,5 @@
     <string name="selecttabprogrammatically">Select Tab Programmatically</string>
     <string name="recyclerviewinsidetab">RecyclerView Inside Tab</string>
     <string name="ontabchangelistner">OnTabChange Listner</string>
+    <string name="detectonclickoncurrenttab">Detect OnClick On Current Tab</string>
 </resources>

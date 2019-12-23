@@ -15,7 +15,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Tab.TabActivity10"></activity>
+        <activity android:name=".Tab.TabActivity11"></activity>
+        <activity android:name=".Tab.TabActivity10" />
         <activity android:name=".Tab.TabActivity9" />
         <activity android:name=".Tab.TabActivity8" />
         <activity android:name=".Tab.TabActivity7" />
