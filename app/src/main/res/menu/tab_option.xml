@@ -73,4 +73,10 @@
         android:orderInCategory="100"
         app:showAsAction="never" />
 
+    <item
+        android:id="@+id/action_activitytab14"
+        android:title="@string/swipeviewwithtab"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
 </menu>
