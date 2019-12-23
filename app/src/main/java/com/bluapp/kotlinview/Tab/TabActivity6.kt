@@ -1,11 +1,8 @@
 package com.bluapp.kotlinview.Tab
 
-import android.content.Intent
-import android.os.Bundle
-import android.view.Menu
-import android.view.MenuItem
-import android.view.View
 import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
@@ -13,20 +10,17 @@ import androidx.viewpager.widget.ViewPager
 import com.bluapp.kotlinview.R
 import com.google.android.material.tabs.TabLayout
 
-
-class TabActivity1 : AppCompatActivity() {
+class TabActivity6 : AppCompatActivity() {
     private var tabLayout: TabLayout? = null
     private var viewPager: ViewPager? = null
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_tab1)
+        setContentView(R.layout.activity_tab6)
         tabLayout = findViewById<View>(R.id.tabs) as TabLayout
         viewPager = findViewById(R.id.viewpager) as ViewPager
         viewPager!!.setAdapter(MyAdapter(supportFragmentManager))
         tabLayout!!.post(Runnable { tabLayout!!.setupWithViewPager(viewPager) })
-
     }
 
     private class MyAdapter(fm: FragmentManager?) : FragmentPagerAdapter(fm!!, FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT) {
@@ -58,40 +52,6 @@ class TabActivity1 : AppCompatActivity() {
             }
             return null
         }
-    }
-
-    override fun onCreateOptionsMenu(menu: Menu): Boolean {
-        val inflater = menuInflater
-        inflater.inflate(R.menu.tab_option, menu)
-        return super.onCreateOptionsMenu(menu)
-    }
-
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        super.onOptionsItemSelected(item)
-        when (item.getItemId()) {
-            R.id.action_activitytab2 -> {
-                startActivity(Intent(this@TabActivity1, TabActivity2::class.java))
-                return true
-            }
-            R.id.action_activitytab3 -> {
-                startActivity(Intent(this@TabActivity1, TabActivity3::class.java))
-                return true
-            }
-            R.id.action_activitytab4 -> {
-                startActivity(Intent(this@TabActivity1, TabActivity4::class.java))
-                return true
-            }
-            R.id.action_activitytab5 -> {
-                startActivity(Intent(this@TabActivity1, TabActivity5::class.java))
-                return true
-            }
-            R.id.action_activitytab6 -> {
-                startActivity(Intent(this@TabActivity1, TabActivity6::class.java))
-                return true
-            }
-        }
-
-        return true
     }
 
 }
