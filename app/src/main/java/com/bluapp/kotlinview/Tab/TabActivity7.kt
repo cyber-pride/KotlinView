@@ -1,8 +1,6 @@
 package com.bluapp.kotlinview.Tab
 
 import android.os.Bundle
-import android.view.View
-import android.widget.Toast
 import androidx.appcompat.app.ActionBar
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
@@ -23,7 +21,7 @@ class TabActivity7 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_tab7)
-        tabLayout = findViewById<View>(R.id.tabs) as TabLayout
+        tabLayout = findViewById(R.id.tabs) as TabLayout
         viewPager = findViewById(R.id.viewpager) as ViewPager
         actionbar = supportActionBar
         mFragmentTitleList.add("TabLayout1")

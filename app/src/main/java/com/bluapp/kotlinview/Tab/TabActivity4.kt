@@ -3,7 +3,6 @@ package com.bluapp.kotlinview.Tab
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
@@ -18,7 +17,7 @@ class TabActivity4 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_tab4)
-        tabLayout = findViewById<View>(R.id.tabs) as TabLayout
+        tabLayout = findViewById(R.id.tabs) as TabLayout
         viewPager = findViewById(R.id.viewpager) as ViewPager
         viewPager!!.setAdapter(MyAdapter(supportFragmentManager))
         tabLayout!!.setTabTextColors(Color.RED, Color.RED)

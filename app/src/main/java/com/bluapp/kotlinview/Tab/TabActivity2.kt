@@ -2,7 +2,6 @@ package com.bluapp.kotlinview.Tab
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
@@ -18,7 +17,7 @@ class TabActivity2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_tab2)
-        tabLayout = findViewById<View>(R.id.tabs) as TabLayout
+        tabLayout = findViewById(R.id.tabs) as TabLayout
         viewPager = findViewById(R.id.viewpager) as ViewPager
         viewPager!!.setAdapter(MyAdapter(supportFragmentManager))
         tabLayout!!.post(Runnable { tabLayout!!.setupWithViewPager(viewPager) })

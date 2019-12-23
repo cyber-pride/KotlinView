@@ -155,4 +155,5 @@
     <string name="changetitleontabswitch">Change Title On Tab Switch</string>
     <string name="selecttabprogrammatically">Select Tab Programmatically</string>
     <string name="recyclerviewinsidetab">RecyclerView Inside Tab</string>
+    <string name="ontabchangelistner">OnTabChange Listner</string>
 </resources>

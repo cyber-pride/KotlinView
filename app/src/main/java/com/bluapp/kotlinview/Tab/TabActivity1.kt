@@ -4,7 +4,6 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
-import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
@@ -22,7 +21,7 @@ class TabActivity1 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_tab1)
-        tabLayout = findViewById<View>(R.id.tabs) as TabLayout
+        tabLayout = findViewById(R.id.tabs) as TabLayout
         viewPager = findViewById(R.id.viewpager) as ViewPager
         viewPager!!.setAdapter(MyAdapter(supportFragmentManager))
         tabLayout!!.post(Runnable { tabLayout!!.setupWithViewPager(viewPager) })
@@ -99,6 +98,10 @@ class TabActivity1 : AppCompatActivity() {
             }
             R.id.action_activitytab9 -> {
                 startActivity(Intent(this@TabActivity1, TabActivity9::class.java))
+                return true
+            }
+            R.id.action_activitytab10 -> {
+                startActivity(Intent(this@TabActivity1, TabActivity10::class.java))
                 return true
             }
         }
