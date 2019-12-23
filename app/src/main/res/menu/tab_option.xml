@@ -13,4 +13,10 @@
         android:orderInCategory="100"
         app:showAsAction="never" />
 
+    <item
+        android:id="@+id/action_activitytab4"
+        android:title="@string/tabmenuitemtextcolor"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
 </menu>
