@@ -161,4 +161,5 @@
     <string name="currenttabposition">Current Tab Position</string>
     <string name="swipeviewwithtab">Swipe View With Tab</string>
     <string name="longclicklistnerontab">LongClickListner On Tab</string>
+    <string name="tabinsidefragment">Tab Inside Fragment</string>
 </resources>

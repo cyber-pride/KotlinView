@@ -85,4 +85,10 @@
         android:orderInCategory="100"
         app:showAsAction="never" />
 
+    <item
+        android:id="@+id/action_activitytab16"
+        android:title="@string/tabinsidefragment"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
 </menu>
