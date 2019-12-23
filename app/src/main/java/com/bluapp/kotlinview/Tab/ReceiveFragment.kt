@@ -19,7 +19,7 @@ class ReceiveFragment : Fragment() {
         val view = inflater.inflate(R.layout.fragment_receive, container, false)
         dataRec = view.findViewById(R.id.dataRec) as AppCompatTextView
 
-        return view;
+        return view
     }
 
     public fun onButtonClick(data: String){
@@ -37,7 +37,7 @@ class ReceiveFragment : Fragment() {
          */
         // TODO: Rename and change types and number of parameters
         @JvmStatic
-        fun newInstance() = SendFragment().apply {}
+        fun newInstance() = ReceiveFragment().apply {}
     }
 }
 

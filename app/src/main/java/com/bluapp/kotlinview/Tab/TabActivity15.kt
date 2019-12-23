@@ -2,6 +2,7 @@ package com.bluapp.kotlinview.Tab
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Handler
 import android.widget.LinearLayout
 import android.widget.Toast
 import androidx.fragment.app.Fragment
@@ -26,13 +27,15 @@ class TabActivity15 : AppCompatActivity() {
     }
 
     private fun getcurrenttabposition(mTabLayout: TabLayout) {
-       val tabStrip = mTabLayout.getChildAt(0) as LinearLayout
-        for (i in 0 until tabStrip.childCount){
-            tabStrip.getChildAt(i).setOnLongClickListener {
-                Toast.makeText(this@TabActivity15, "Tab LongClick", Toast.LENGTH_LONG).show()
-                true
+        Handler().postDelayed(Runnable {
+            val tabStrip = mTabLayout.getChildAt(0) as LinearLayout
+            for (i in 0 until tabStrip.childCount){
+                tabStrip.getChildAt(i).setOnLongClickListener {
+                    Toast.makeText(this@TabActivity15, "Tab LongClick", Toast.LENGTH_LONG).show()
+                    true
+                }
             }
-        }
+        }, 100)
     }
 
     private inner class MyAdapter(fm: FragmentManager?) : FragmentPagerAdapter(fm!!, FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT) {

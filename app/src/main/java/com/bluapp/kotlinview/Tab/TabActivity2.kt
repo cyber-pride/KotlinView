@@ -2,6 +2,7 @@ package com.bluapp.kotlinview.Tab
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Handler
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
@@ -25,7 +26,12 @@ class TabActivity2 : AppCompatActivity() {
     }
 
     private fun disableTab(tabLayout: TabLayout, index: Int){
-        (tabLayout.getChildAt(0) as ViewGroup).getChildAt(index).isEnabled = false
+        Handler().postDelayed(Runnable {
+            val tabStrip = tabLayout.getChildAt(0) as ViewGroup
+            for (i in 0 until tabStrip.childCount){
+                tabStrip.getChildAt(i).isEnabled = false
+            }
+        }, 100)
     }
 
     private inner class MyAdapter(fm: FragmentManager?) : FragmentPagerAdapter(fm!!, FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT) {

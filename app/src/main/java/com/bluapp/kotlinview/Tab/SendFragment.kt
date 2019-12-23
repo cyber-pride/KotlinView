@@ -21,7 +21,7 @@ class SendFragment : Fragment() {
         dataBtn!!.setOnClickListener {
             listener?.onButtonClick("Hello World")
         }
-        return view;
+        return view
     }
 
     override fun onAttach(context: Context) {
