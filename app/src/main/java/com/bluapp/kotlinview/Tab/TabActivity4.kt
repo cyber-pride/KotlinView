@@ -25,7 +25,7 @@ class TabActivity4 : AppCompatActivity() {
         tabLayout!!.post(Runnable { tabLayout!!.setupWithViewPager(viewPager) })
     }
 
-    private class MyAdapter(fm: FragmentManager?) : FragmentPagerAdapter(fm!!, FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT) {
+    private inner class MyAdapter(fm: FragmentManager?) : FragmentPagerAdapter(fm!!, FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT) {
         private val int_items = 5;
 
         override fun getItem(position: Int): Fragment {

@@ -31,4 +31,10 @@
         android:orderInCategory="100"
         app:showAsAction="never" />
 
+    <item
+        android:id="@+id/action_activitytab7"
+        android:title="@string/changetitleontabswitch"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
 </menu>

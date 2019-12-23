@@ -29,7 +29,7 @@ class TabActivity1 : AppCompatActivity() {
 
     }
 
-    private class MyAdapter(fm: FragmentManager?) : FragmentPagerAdapter(fm!!, FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT) {
+    private inner class MyAdapter(fm: FragmentManager?) : FragmentPagerAdapter(fm!!, FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT) {
         private val int_items = 5;
 
         override fun getItem(position: Int): Fragment {
@@ -87,6 +87,10 @@ class TabActivity1 : AppCompatActivity() {
             }
             R.id.action_activitytab6 -> {
                 startActivity(Intent(this@TabActivity1, TabActivity6::class.java))
+                return true
+            }
+            R.id.action_activitytab7 -> {
+                startActivity(Intent(this@TabActivity1, TabActivity7::class.java))
                 return true
             }
         }
