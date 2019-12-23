@@ -99,5 +99,18 @@
             android:layout_marginTop="1dp"
             app:layout_constraintTop_toBottomOf="@id/spinner"/>
 
+        <Button
+            android:id="@+id/tab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:onClick="ViewClick"
+            android:text="Kotlin Tab"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginTop="1dp"
+            app:layout_constraintTop_toBottomOf="@id/recyclerview"/>
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
