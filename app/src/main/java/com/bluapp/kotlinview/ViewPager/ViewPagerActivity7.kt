@@ -23,10 +23,10 @@ class ViewPagerActivity7 : AppCompatActivity() {
         viewPager!!.adapter = MyAdapter()
     }
 
-    private inner class MyAdapter() : PagerAdapter() {
+    private inner class MyAdapter : PagerAdapter() {
         private val int_items = 5
 
-        public override fun instantiateItem(container: ViewGroup, position: Int): Any {
+        override fun instantiateItem(container: ViewGroup, position: Int): Any {
             val inflater = container.context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
             var resid = -1
             when (position) {
