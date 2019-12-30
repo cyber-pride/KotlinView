@@ -15,7 +15,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ViewPager.ViewPagerActivity16"></activity>
+        <activity android:name=".ViewPager.ViewPagerActivity17"></activity>
+        <activity android:name=".ViewPager.ViewPagerActivity16" />
         <activity android:name=".ViewPager.ViewPagerActivity15" />
         <activity android:name=".ViewPager.ViewPagerActivity14" />
         <activity android:name=".ViewPager.ViewPagerActivity13" />

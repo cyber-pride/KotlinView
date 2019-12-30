@@ -179,4 +179,5 @@
     <string name="fragmentinviewpager2">Fragment In ViewPager2</string>
     <string name="tablayoutwithviewpager2">TabLayout With ViewPager2</string>
     <string name="pagetransformerviewpager">PageTransformer ViewPager</string>
+    <string name="showpartofviewpager2page">Show Part Of ViewPager2 Page</string>
 </resources>
