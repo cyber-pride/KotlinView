@@ -11,6 +11,7 @@ import com.bluapp.kotlinview.Tab.TabActivity1
 import com.bluapp.kotlinview.recyclerView.RecyclerViewActivity1
 import com.bluapp.kotlinview.spinner.SpinnerActivity1
 import com.bluapp.kotlinview.TextViewAndRadioButton.TextViewAndRadioButtonActivity1
+import com.bluapp.kotlinview.ViewPager.ViewPagerActivity1
 import com.bluapp.kotlinview.imageView.ImageViewActivity1
 
 class ViewActivity : AppCompatActivity() {
@@ -38,7 +39,7 @@ class ViewActivity : AppCompatActivity() {
         }else if(view.id == R.id.tab){
             startActivity(Intent(this@ViewActivity, TabActivity1::class.java))
         }else if(view.id == R.id.viewpager){
-          //  startActivity(Intent(this@ViewActivity, ViewPagerActivity1::class.java))
+            startActivity(Intent(this@ViewActivity, ViewPagerActivity1::class.java))
         }
     }
 
