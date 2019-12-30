@@ -167,4 +167,5 @@
     <string name="viewpagerspeed">ViewPager Speed</string>
     <string name="viewpagervertical">ViewPager Vertical</string>
     <string name="addonpagechangelistner">Add OnPageChangeListner</string>
+    <string name="disableviewpagerswipe">Disable ViewPager Swipe</string>
 </resources>
