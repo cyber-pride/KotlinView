@@ -109,4 +109,10 @@
         android:orderInCategory="100"
         app:showAsAction="never" />
 
+    <item
+        android:id="@+id/action_activityviewpager20"
+        android:title="@string/removeviewpager2shadow"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
 </menu>
