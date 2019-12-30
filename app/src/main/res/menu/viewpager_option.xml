@@ -13,4 +13,10 @@
         android:orderInCategory="100"
         app:showAsAction="never" />
 
+    <item
+        android:id="@+id/action_activityviewpager4"
+        android:title="@string/addonpagechangelistner"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
 </menu>

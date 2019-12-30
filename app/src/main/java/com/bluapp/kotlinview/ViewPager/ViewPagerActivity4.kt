@@ -1,24 +1,34 @@
 package com.bluapp.kotlinview.ViewPager
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.Menu
-import android.view.MenuItem
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
 import androidx.viewpager.widget.ViewPager
 import com.bluapp.kotlinview.R
 
-class ViewPagerActivity1 : AppCompatActivity() {
+class ViewPagerActivity4 : AppCompatActivity() {
     private var viewPager: ViewPager? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_view_pager1)
+        setContentView(R.layout.activity_view_pager4)
         viewPager = findViewById(R.id.viewpager) as ViewPager
         viewPager!!.adapter = MyAdapter(supportFragmentManager)
+        viewPager!!.addOnPageChangeListener(object : ViewPager.OnPageChangeListener{
+            override fun onPageSelected(position: Int) {
+                Toast.makeText(this@ViewPagerActivity4, "Position $position", Toast.LENGTH_SHORT).show()
+            }
+
+            override fun onPageScrolled(position: Int, positionOffset: Float, positionOffsetPixels: Int) {
+            }
+
+            override fun onPageScrollStateChanged(state: Int) {
+
+            }
+        })
     }
 
     private inner class MyAdapter(fm: FragmentManager?) : FragmentPagerAdapter(fm!!, FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT) {
@@ -40,31 +50,4 @@ class ViewPagerActivity1 : AppCompatActivity() {
             return int_items
         }
     }
-
-    override fun onCreateOptionsMenu(menu: Menu): Boolean {
-        val inflater = menuInflater
-        inflater.inflate(R.menu.viewpager_option, menu)
-        return super.onCreateOptionsMenu(menu)
-    }
-
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        super.onOptionsItemSelected(item)
-        when (item.getItemId()) {
-            R.id.action_activityviewpager2 -> {
-                startActivity(Intent(this@ViewPagerActivity1, ViewPagerActivity2::class.java))
-                return true
-            }
-            R.id.action_activityviewpager3 -> {
-                startActivity(Intent(this@ViewPagerActivity1, ViewPagerActivity3::class.java))
-                return true
-            }
-            R.id.action_activityviewpager4 -> {
-                startActivity(Intent(this@ViewPagerActivity1, ViewPagerActivity4::class.java))
-                return true
-            }
-        }
-
-        return true
-    }
-
 }
