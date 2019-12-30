@@ -168,4 +168,5 @@
     <string name="viewpagervertical">ViewPager Vertical</string>
     <string name="addonpagechangelistner">Add OnPageChangeListner</string>
     <string name="disableviewpagerswipe">Disable ViewPager Swipe</string>
+    <string name="viewpagerslidebutton">ViewPager Slide Button</string>
 </resources>

@@ -22,7 +22,7 @@ class ViewPagerActivity1 : AppCompatActivity() {
     }
 
     private inner class MyAdapter(fm: FragmentManager?) : FragmentPagerAdapter(fm!!, FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT) {
-        private val int_items = 5;
+        private val int_items = 5
 
         override fun getItem(position: Int): Fragment {
             var fragment: Fragment? = null
@@ -64,6 +64,10 @@ class ViewPagerActivity1 : AppCompatActivity() {
             }
             R.id.action_activityviewpager5 -> {
                 startActivity(Intent(this@ViewPagerActivity1, ViewPagerActivity5::class.java))
+                return true
+            }
+            R.id.action_activityviewpager6 -> {
+                startActivity(Intent(this@ViewPagerActivity1, ViewPagerActivity6::class.java))
                 return true
             }
         }

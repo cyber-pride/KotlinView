@@ -2,38 +2,31 @@ package com.bluapp.kotlinview.ViewPager
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.Handler
+import androidx.appcompat.widget.AppCompatButton
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
 import androidx.viewpager.widget.ViewPager
 import com.bluapp.kotlinview.R
-import java.util.*
 
-class ViewPagerActivity2 : AppCompatActivity() {
+class ViewPagerActivity6 : AppCompatActivity() {
     private var viewPager: ViewPager? = null
+    private var slideButton: AppCompatButton? = null
     private var currentViewPager = 0
     private val int_items = 5
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_view_pager2)
+        setContentView(R.layout.activity_view_pager6)
         viewPager = findViewById(R.id.viewpager) as ViewPager
+        slideButton = findViewById(R.id.slideButton) as AppCompatButton
         viewPager!!.adapter = MyAdapter(supportFragmentManager)
-        val handler = Handler()
-        val update = Runnable {
+        slideButton!!.setOnClickListener {
             if(currentViewPager == int_items){
                 currentViewPager = 0
             }
             viewPager!!.setCurrentItem(currentViewPager++, true)
         }
-        val swiperTimer = Timer()
-        swiperTimer.schedule(object : TimerTask(){
-            override fun run() {
-                handler.post(update)
-            }
-        }, 4000, 4000)
-
         viewPager!!.addOnPageChangeListener(object : ViewPager.OnPageChangeListener{
             override fun onPageSelected(position: Int) {
                 currentViewPager = position
@@ -65,7 +58,5 @@ class ViewPagerActivity2 : AppCompatActivity() {
         override fun getCount(): Int {
             return int_items
         }
-
-
     }
 }
