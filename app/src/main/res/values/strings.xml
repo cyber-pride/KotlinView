@@ -176,4 +176,5 @@
     <string name="addandremoveviewviewpager">Add And Remove View ViewPager</string>
     <string name="viewpagerwithnestedscrollview">ViewPager With NestedScrollView</string>
     <string name="viewpagercurrentposition">ViewPager Current Position</string>
+    <string name="fragmentinviewpager2">Fragment In ViewPager2</string>
 </resources>

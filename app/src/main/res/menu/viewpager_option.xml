@@ -73,4 +73,10 @@
         android:orderInCategory="100"
         app:showAsAction="never" />
 
+    <item
+        android:id="@+id/action_activityviewpager14"
+        android:title="@string/fragmentinviewpager2"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
 </menu>
