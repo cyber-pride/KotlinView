@@ -79,4 +79,10 @@
         android:orderInCategory="100"
         app:showAsAction="never" />
 
+    <item
+        android:id="@+id/action_activityviewpager15"
+        android:title="@string/tablayoutwithviewpager2"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
 </menu>
