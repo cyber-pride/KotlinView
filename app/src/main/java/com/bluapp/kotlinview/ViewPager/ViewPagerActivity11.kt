@@ -3,8 +3,8 @@ package com.bluapp.kotlinview.ViewPager
 import android.os.Bundle
 import android.view.View
 import android.view.ViewGroup
-import android.widget.RelativeLayout
 import androidx.appcompat.app.AppCompatActivity
+import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.viewpager.widget.PagerAdapter
 import androidx.viewpager.widget.ViewPager
 import com.bluapp.kotlinview.R
@@ -22,8 +22,8 @@ class ViewPagerActivity11 : AppCompatActivity() {
         myAdapter = MyAdapter()
         viewPager!!.adapter = myAdapter
         val inflater = layoutInflater
-        val relativeLayout = inflater.inflate(R.layout.viewpager_item11, null) as RelativeLayout
-        myAdapter!!.addView(relativeLayout, 0)
+        val constraintLayout = inflater.inflate(R.layout.viewpager_item11, null) as ConstraintLayout
+        myAdapter!!.addView(constraintLayout, 0)
         myAdapter!!.notifyDataSetChanged()
 
     }
