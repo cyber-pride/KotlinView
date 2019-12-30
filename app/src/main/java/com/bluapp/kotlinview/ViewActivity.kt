@@ -37,6 +37,8 @@ class ViewActivity : AppCompatActivity() {
             startActivity(Intent(this@ViewActivity, RecyclerViewActivity1::class.java))
         }else if(view.id == R.id.tab){
             startActivity(Intent(this@ViewActivity, TabActivity1::class.java))
+        }else if(view.id == R.id.viewpager){
+          //  startActivity(Intent(this@ViewActivity, ViewPagerActivity1::class.java))
         }
     }
 
