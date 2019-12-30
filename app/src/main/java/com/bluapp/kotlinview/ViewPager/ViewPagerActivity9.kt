@@ -11,15 +11,14 @@ import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.ViewPager2
 import com.bluapp.kotlinview.R
 
-class ViewPagerActivity3 : AppCompatActivity() {
+class ViewPagerActivity9 : AppCompatActivity() {
     private var viewPager: ViewPager2? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_view_pager3)
+        setContentView(R.layout.activity_view_pager9)
         viewPager = findViewById(R.id.viewpager) as ViewPager2
         viewPager!!.adapter = MyAdapter()
-        viewPager!!.orientation = ViewPager2.ORIENTATION_VERTICAL
     }
 
     private inner class MyAdapter : RecyclerView.Adapter<MyAdapter.MyViewHolder>() {
@@ -30,10 +29,11 @@ class ViewPagerActivity3 : AppCompatActivity() {
             android.R.color.holo_blue_dark
         )
 
-        override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder = MyViewHolder(LayoutInflater.from(parent.context).inflate(R.layout.viewpager_item, parent, false))
+        override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder = MyViewHolder(
+            LayoutInflater.from(parent.context).inflate(R.layout.viewpager_item, parent, false))
 
         override fun getItemCount(): Int {
-          return colorlists.size
+            return colorlists.size
         }
 
         override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
@@ -50,5 +50,4 @@ class ViewPagerActivity3 : AppCompatActivity() {
             }
         }
     }
-
 }

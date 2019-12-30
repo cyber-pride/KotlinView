@@ -43,4 +43,10 @@
         android:orderInCategory="100"
         app:showAsAction="never" />
 
+    <item
+        android:id="@+id/action_activityviewpager9"
+        android:title="@string/viewpager2withrecyclerview"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
 </menu>
