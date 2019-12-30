@@ -174,4 +174,5 @@
     <string name="viewpager2withrecyclerview">ViewPager2 With RecyclerView</string>
     <string name="viewpagerfragmentstate">ViewPager Fragment State</string>
     <string name="addandremoveviewviewpager">Add And Remove View ViewPager</string>
+    <string name="viewpagerwithnestedscrollview">ViewPager With NestedScrollView</string>
 </resources>

@@ -61,4 +61,10 @@
         android:orderInCategory="100"
         app:showAsAction="never" />
 
+    <item
+        android:id="@+id/action_activityviewpager12"
+        android:title="@string/viewpagerwithnestedscrollview"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
 </menu>
