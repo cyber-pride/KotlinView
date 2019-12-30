@@ -103,4 +103,10 @@
         android:orderInCategory="100"
         app:showAsAction="never" />
 
+    <item
+        android:id="@+id/action_activityviewpager19"
+        android:title="@string/migratetoviewpager2"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
 </menu>

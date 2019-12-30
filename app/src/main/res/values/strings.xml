@@ -181,4 +181,5 @@
     <string name="pagetransformerviewpager">PageTransformer ViewPager</string>
     <string name="showpartofviewpager2page">Show Part Of ViewPager2 Page</string>
     <string name="endlessscrollviewpager2">Endless Scroll ViewPager2</string>
+    <string name="migratetoviewpager2">Migrate To ViewPager2</string>
 </resources>
