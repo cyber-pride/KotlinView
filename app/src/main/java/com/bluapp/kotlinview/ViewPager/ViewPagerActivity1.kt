@@ -106,6 +106,10 @@ class ViewPagerActivity1 : AppCompatActivity() {
                 startActivity(Intent(this@ViewPagerActivity1, ViewPagerActivity15::class.java))
                 return true
             }
+            R.id.action_activityviewpager16 -> {
+                startActivity(Intent(this@ViewPagerActivity1, ViewPagerActivity16::class.java))
+                return true
+            }
         }
 
         return true

@@ -178,4 +178,5 @@
     <string name="viewpagercurrentposition">ViewPager Current Position</string>
     <string name="fragmentinviewpager2">Fragment In ViewPager2</string>
     <string name="tablayoutwithviewpager2">TabLayout With ViewPager2</string>
+    <string name="pagetransformerviewpager">PageTransformer ViewPager</string>
 </resources>
