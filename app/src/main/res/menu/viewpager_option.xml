@@ -7,4 +7,10 @@
         android:orderInCategory="100"
         app:showAsAction="never" />
 
+    <item
+        android:id="@+id/action_activityviewpager3"
+        android:title="@string/viewpagervertical"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
 </menu>

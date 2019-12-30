@@ -165,4 +165,5 @@
     <string name="tabhost">Tab Host</string>
     <string name="passdatatotwotab">Pass Data To Two Tab</string>
     <string name="viewpagerspeed">ViewPager Speed</string>
+    <string name="viewpagervertical">ViewPager Vertical</string>
 </resources>
