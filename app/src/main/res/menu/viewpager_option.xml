@@ -49,4 +49,10 @@
         android:orderInCategory="100"
         app:showAsAction="never" />
 
+    <item
+        android:id="@+id/action_activityviewpager10"
+        android:title="@string/viewpagerfragmentstate"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
 </menu>

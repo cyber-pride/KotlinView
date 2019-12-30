@@ -172,4 +172,5 @@
     <string name="viewpagerwithdifferentlayout">ViewPager With Different Layout</string>
     <string name="viewpagerwithdottedindicator">ViewPager With Dotted Indicator</string>
     <string name="viewpager2withrecyclerview">ViewPager2 With RecyclerView</string>
+    <string name="viewpagerfragmentstate">ViewPager Fragment State</string>
 </resources>
