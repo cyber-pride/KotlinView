@@ -1,28 +1,54 @@
 package com.bluapp.kotlinview.ViewPager
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.Menu
-import android.view.MenuItem
+import android.os.Handler
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
 import androidx.viewpager.widget.ViewPager
 import com.bluapp.kotlinview.R
+import java.util.*
 
-class ViewPagerActivity1 : AppCompatActivity() {
+class ViewPagerActivity2 : AppCompatActivity() {
     private var viewPager: ViewPager? = null
+    private var currentViewPager = 0
+    private val int_items = 5;
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_view_pager1)
+        setContentView(R.layout.activity_view_pager2)
         viewPager = findViewById(R.id.viewpager) as ViewPager
         viewPager!!.adapter = MyAdapter(supportFragmentManager)
+        val handler = Handler()
+        val update = Runnable {
+            if(currentViewPager == int_items){
+                currentViewPager = 0
+            }
+            viewPager!!.setCurrentItem(currentViewPager++, true)
+        }
+        val swiperTimer = Timer()
+        swiperTimer.schedule(object : TimerTask(){
+            override fun run() {
+                handler.post(update)
+            }
+        }, 4000, 4000)
+
+        viewPager!!.addOnPageChangeListener(object : ViewPager.OnPageChangeListener{
+            override fun onPageSelected(position: Int) {
+                currentViewPager = position
+            }
+
+            override fun onPageScrolled(position: Int, positionOffset: Float, positionOffsetPixels: Int) {
+            }
+
+            override fun onPageScrollStateChanged(state: Int) {
+
+            }
+        })
     }
 
     private inner class MyAdapter(fm: FragmentManager?) : FragmentPagerAdapter(fm!!, FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT) {
-        private val int_items = 5;
 
         override fun getItem(position: Int): Fragment {
             var fragment: Fragment? = null
@@ -42,23 +68,4 @@ class ViewPagerActivity1 : AppCompatActivity() {
 
 
     }
-
-    override fun onCreateOptionsMenu(menu: Menu): Boolean {
-        val inflater = menuInflater
-        inflater.inflate(R.menu.viewpager_option, menu)
-        return super.onCreateOptionsMenu(menu)
-    }
-
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        super.onOptionsItemSelected(item)
-        when (item.getItemId()) {
-            R.id.action_activityviewpager2 -> {
-                startActivity(Intent(this@ViewPagerActivity1, ViewPagerActivity2::class.java))
-                return true
-            }
-        }
-
-        return true
-    }
-
 }
