@@ -25,8 +25,6 @@ class ViewPagerActivity18 : AppCompatActivity() {
             override fun onPageSelected(position: Int) {
                 if((viewPager!!.currentItem+1)==int_items){
                     viewPager!!.setCurrentItem(0)
-                }else{
-                    viewPager!!.setCurrentItem(viewPager!!.currentItem+1)
                 }
             }
             override fun onPageScrolled(position: Int, positionOffset: Float, positionOffsetPixels: Int) {

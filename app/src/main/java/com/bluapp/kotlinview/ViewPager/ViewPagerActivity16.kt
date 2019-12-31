@@ -16,16 +16,22 @@ class ViewPagerActivity16 : AppCompatActivity() {
         setContentView(R.layout.activity_view_pager16)
         viewPager = findViewById(R.id.viewpager) as ViewPager
         viewPager!!.adapter = MyAdapter(supportFragmentManager)
+        viewPager!!.offscreenPageLimit = 3
+        val pageMargin = 30f
+        val pageOffset = 30f
         viewPager!!.setPageTransformer(false, ViewPager.PageTransformer { page, position ->
-            val pageWidth = viewPager!!.measuredWidth - viewPager!!.paddingLeft - viewPager!!.paddingRight
-            val paddingLeft = viewPager!!.paddingLeft
-            val transformposition = (page.left - (viewPager!!.scrollX + paddingLeft)) / pageWidth
-            if(transformposition < -1){
-                page.scaleY = 0.8f
-            }else if(transformposition <= 1){
-                page.scaleY = 1f
+            val mOffset = position * -(2 * pageOffset + pageMargin)
+            if(position < -1){
+                page.translationX=-mOffset
+            }else if(position <= 1){
+                val scaleFactor = Math.max(0.7f, 1 - Math.abs(position - 0.14285715f))
+                page.translationX = mOffset
+                page.scaleY = scaleFactor
+                page.alpha = scaleFactor
             }else{
-                page.scaleY = 0.8f
+                page.alpha = 0f
+                page.translationX = mOffset
+
             }
         })
     }
