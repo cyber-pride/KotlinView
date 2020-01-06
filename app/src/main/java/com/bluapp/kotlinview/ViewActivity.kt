@@ -40,6 +40,8 @@ class ViewActivity : AppCompatActivity() {
             startActivity(Intent(this@ViewActivity, TabActivity1::class.java))
         }else if(view.id == R.id.viewpager){
             startActivity(Intent(this@ViewActivity, ViewPagerActivity1::class.java))
+        }else if(view.id == R.id.navigation){
+          //  startActivity(Intent(this@ViewActivity, ViewPagerActivity1::class.java))
         }
     }
 
