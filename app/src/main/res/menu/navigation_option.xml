@@ -31,4 +31,10 @@
         android:orderInCategory="100"
         app:showAsAction="never" />
 
+    <item
+        android:id="@+id/action_activitynavigation7"
+        android:title="@string/bottomdrawernavigation"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
 </menu>

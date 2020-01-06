@@ -60,6 +60,10 @@ class NavigationActivity1 : AppCompatActivity() {
                 startActivity(Intent(this@NavigationActivity1, NavigationActivity6::class.java))
                 return true
             }
+            R.id.action_activitynavigation7 -> {
+                startActivity(Intent(this@NavigationActivity1, NavigationActivity7::class.java))
+                return true
+            }
         }
 
         return true

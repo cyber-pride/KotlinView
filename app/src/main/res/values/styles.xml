@@ -16,28 +16,18 @@
         <item name="fontFamily">@font/font</item>
     </style>
 
-    <style name="ToolBarTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
-        <item name="android:actionBarStyle">@style/AppActionBarStyle</item>
-        <!-- Support library compatibility -->
-        <item name="actionBarStyle">@style/AppActionBarStyle</item>
-    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
-    <style name="AppActionBarStyle" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
-        <item name="android:background">@color/colorPrimary</item>
-        <!-- Support library compatibility -->
-        <item name="background">@color/colorPrimary</item>
-    </style>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
-    <style name="ToolBarTheme.NoActionBar">
-        <item name="android:windowDisablePreview">true</item>
+    <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
     </style>
 
-    <style name="Widget.Navigation5" parent="@style/Widget.Design.NavigationView">
+
+    <style name="NavigationView5">
         <item name="fontFamily">@font/font</item>
     </style>
 

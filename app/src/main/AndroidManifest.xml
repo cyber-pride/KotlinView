@@ -16,22 +16,24 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".Navigation.NavigationActivity6"/>
+            android:name=".Navigation.NavigationActivity7"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".Navigation.NavigationActivity6" />
         <activity
             android:name=".Navigation.NavigationActivity5"
-            android:theme="@style/ToolBarTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Navigation.NavigationActivity4"
-            android:theme="@style/ToolBarTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Navigation.NavigationActivity3"
-            android:theme="@style/ToolBarTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Navigation.NavigationActivity2"
-            android:theme="@style/ToolBarTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Navigation.NavigationActivity1"
-            android:theme="@style/ToolBarTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".ViewPager.ViewPagerActivity20" />
         <activity android:name=".ViewPager.ViewPagerActivity19" />
         <activity android:name=".ViewPager.ViewPagerActivity18" />
