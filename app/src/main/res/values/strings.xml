@@ -189,4 +189,5 @@
     <string name="App">App</string>
     <string name="navigationheaderview">Navigation Header View</string>
     <string name="menutextcolor">Menu Text Color</string>
+    <string name="menutextfont">Menu Text Font</string>
 </resources>

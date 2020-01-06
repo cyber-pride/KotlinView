@@ -38,6 +38,9 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="Widget.Navigation5" parent="@style/Widget.Design.NavigationView">
+        <item name="fontFamily">@font/font</item>
+    </style>
 
 
 
