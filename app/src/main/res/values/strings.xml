@@ -183,4 +183,8 @@
     <string name="endlessscrollviewpager2">Endless Scroll ViewPager2</string>
     <string name="migratetoviewpager2">Migrate To ViewPager2</string>
     <string name="removeviewpager2shadow">Remove ViewPager2 Shadow</string>
+    <string name="navigationbackground">Navigation Background</string>
+    <string name="home">Home</string>
+    <string name="blog">Blog</string>
+    <string name="App">App</string>
 </resources>
