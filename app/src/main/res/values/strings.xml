@@ -198,4 +198,5 @@
     <string name="menuitembadge">Menu Item Badge</string>
     <string name="nestedgraph">Nested Graph</string>
     <string name="safeargdatapassing">Safe Arg Data Passing</string>
+    <string name="actionbaroncomponent">ActionBar On Component</string>
 </resources>
