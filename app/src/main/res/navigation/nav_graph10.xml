@@ -2,11 +2,11 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/nav_graph8"
-    app:startDestination="@id/navFragment8">
+    android:id="@+id/nav_graph10"
+    app:startDestination="@id/navFragment10">
 
     <fragment
-        android:id="@+id/navFragment8"
+        android:id="@+id/navFragment10"
         android:name="com.bluapp.kotlinview.Navigation.NavFragment8"
         android:label="@string/app_name"
         tools:layout="@layout/fragment_nav_fragment8">
