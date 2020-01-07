@@ -200,4 +200,5 @@
     <string name="safeargdatapassing">Safe Arg Data Passing</string>
     <string name="actionbaroncomponent">ActionBar On Component</string>
     <string name="collapsingtoolbar">Collapsing Toolbar</string>
+    <string name="globalaction">Global Action</string>
 </resources>

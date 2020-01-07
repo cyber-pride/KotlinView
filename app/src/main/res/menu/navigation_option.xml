@@ -85,4 +85,15 @@
         android:orderInCategory="100"
         app:showAsAction="never" />
 
+    <item
+        android:id="@+id/action_activitynavigation16"
+        android:title="@string/globalaction"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_activitynavigation17"
+        android:title="@string/globalaction"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
 </menu>

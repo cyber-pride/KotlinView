@@ -96,6 +96,14 @@ class NavigationActivity1 : AppCompatActivity() {
                 startActivity(Intent(this@NavigationActivity1, NavigationActivity15::class.java))
                 return true
             }
+            R.id.action_activitynavigation16 -> {
+                startActivity(Intent(this@NavigationActivity1, NavigationActivity16::class.java))
+                return true
+            }
+            R.id.action_activitynavigation17 -> {
+                startActivity(Intent(this@NavigationActivity1, NavigationActivity17::class.java))
+                return true
+            }
 
         }
 
