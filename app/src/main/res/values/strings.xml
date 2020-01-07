@@ -193,4 +193,5 @@
     <string name="componentnavigation">Component Navigation</string>
     <string name="bottomdrawernavigation">Bottom Drawer Navigation</string>
     <string name="activitynav">Activity Navigation</string>
+    <string name="addondestinationchangelistener">addOnDestinationChangeListener</string>
 </resources>

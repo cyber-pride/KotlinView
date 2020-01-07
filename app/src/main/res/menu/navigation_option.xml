@@ -43,4 +43,10 @@
         android:orderInCategory="100"
         app:showAsAction="never" />
 
+    <item
+        android:id="@+id/action_activitynavigation9"
+        android:title="@string/addondestinationchangelistener"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
 </menu>
