@@ -92,7 +92,7 @@
         app:showAsAction="never" />
     <item
         android:id="@+id/action_activitynavigation17"
-        android:title="@string/globalaction"
+        android:title="@string/migratetocomponent"
         android:orderInCategory="100"
         app:showAsAction="never" />
 

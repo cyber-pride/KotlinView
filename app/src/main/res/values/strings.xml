@@ -201,4 +201,5 @@
     <string name="actionbaroncomponent">ActionBar On Component</string>
     <string name="collapsingtoolbar">Collapsing Toolbar</string>
     <string name="globalaction">Global Action</string>
+    <string name="migratetocomponent">Migrate To Component</string>
 </resources>
