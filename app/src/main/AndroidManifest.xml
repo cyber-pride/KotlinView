@@ -16,9 +16,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".Navigation.NavigationActivity18"></activity>
-        <activity android:name=".Navigation.NavigationActivity17" />
+        <activity
+            android:name=".Navigation.NavigationActivity17"
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity android:name=".Navigation.NavigationActivity16" />
-        <activity android:name=".Navigation.NavigationActivity15" />
+        <activity
+            android:name=".Navigation.NavigationActivity15"
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity
             android:name=".Navigation.NavigationActivity14"
             android:theme="@style/AppTheme.NoActionBar" />
