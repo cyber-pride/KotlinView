@@ -196,4 +196,5 @@
     <string name="addondestinationchangelistener">addOnDestinationChangeListener</string>
     <string name="actioninnav">Action in nav</string>
     <string name="menuitembadge">Menu Item Badge</string>
+    <string name="nextedgraph">Nexted Graph</string>
 </resources>

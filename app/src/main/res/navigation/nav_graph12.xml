@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph12"
+    app:startDestination="@id/navFragment12">
+
+    <fragment
+        android:id="@+id/navFragment12"
+        android:name="com.bluapp.kotlinview.Navigation.NavFragment12"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_nav_fragment12">
+        <action
+            android:id="@+id/navFragment12tonav_graph121"
+            app:destination="@id/nav_graph121"/>
+    </fragment>
+
+    <navigation
+        android:id="@+id/nav_graph121"
+        app:startDestination="@id/navFragment121">
+
+        <fragment
+            android:id="@+id/navFragment121"
+            android:name="com.bluapp.kotlinview.Navigation.NavFragment121"
+            android:label="@string/app_name"
+            tools:layout="@layout/fragment_nav_fragment121">
+        <action
+            android:id="@+id/navFragment121tonavFragment122"
+            app:destination="@id/navFragment122"/>
+        </fragment>
+
+        <fragment
+            android:id="@+id/navFragment122"
+            android:name="com.bluapp.kotlinview.Navigation.NavFragment"
+            android:label="@string/app_name"
+            tools:layout="@layout/fragment_nav" />
+
+
+
+    </navigation>
+
+</navigation>

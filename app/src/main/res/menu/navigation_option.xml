@@ -61,4 +61,10 @@
         android:orderInCategory="100"
         app:showAsAction="never" />
 
+    <item
+        android:id="@+id/action_activitynavigation12"
+        android:title="@string/nextedgraph"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
 </menu>
