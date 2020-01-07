@@ -63,7 +63,13 @@
 
     <item
         android:id="@+id/action_activitynavigation12"
-        android:title="@string/nextedgraph"
+        android:title="@string/nestedgraph"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activitynavigation13"
+        android:title="@string/safeargdatapassing"
         android:orderInCategory="100"
         app:showAsAction="never" />
 
