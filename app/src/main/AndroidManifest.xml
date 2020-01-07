@@ -15,7 +15,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Navigation.NavigationActivity10"></activity>
+        <activity android:name=".Navigation.NavigationActivity11"></activity>
+        <activity android:name=".Navigation.NavigationActivity10" />
         <activity android:name=".Navigation.NavigationActivity9" />
         <activity android:name=".Navigation.NavActivity8" />
         <activity android:name=".Navigation.NavigationActivity8" />

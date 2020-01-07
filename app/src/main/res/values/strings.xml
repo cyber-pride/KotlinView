@@ -195,4 +195,5 @@
     <string name="activitynav">Activity Navigation</string>
     <string name="addondestinationchangelistener">addOnDestinationChangeListener</string>
     <string name="actioninnav">Action in nav</string>
+    <string name="menuitembadge">Menu Item Badge</string>
 </resources>
