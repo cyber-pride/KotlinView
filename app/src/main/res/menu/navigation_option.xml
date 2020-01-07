@@ -79,4 +79,10 @@
         android:orderInCategory="100"
         app:showAsAction="never" />
 
+    <item
+        android:id="@+id/action_activitynavigation15"
+        android:title="@string/collapsingtoolbar"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
 </menu>
