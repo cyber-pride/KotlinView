@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph2"
+    app:startDestination="@id/navFragment8">
+
+    <fragment
+        android:id="@+id/navFragment8"
+        android:name="com.bluapp.kotlinview.Navigation.NavFragment8"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_nav_fragment8">
+        <action
+            android:id="@+id/maintoActivity"
+            app:destination="@id/navSecActivity"/>
+    </fragment>
+
+    <activity
+        android:id="@+id/navSecActivity"
+        android:name="com.bluapp.kotlinview.Navigation.NavActivity8"
+        android:label="@string/app_name"
+        tools:layout="@layout/activity_nav8"/>
+
+
+</navigation>
