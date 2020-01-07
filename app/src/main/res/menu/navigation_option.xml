@@ -90,9 +90,16 @@
         android:title="@string/globalaction"
         android:orderInCategory="100"
         app:showAsAction="never" />
+
     <item
         android:id="@+id/action_activitynavigation17"
         android:title="@string/migratetocomponent"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_activitynavigation18"
+        android:title="@string/buttonnav"
         android:orderInCategory="100"
         app:showAsAction="never" />
 

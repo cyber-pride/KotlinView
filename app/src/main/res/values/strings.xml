@@ -202,4 +202,5 @@
     <string name="collapsingtoolbar">Collapsing Toolbar</string>
     <string name="globalaction">Global Action</string>
     <string name="migratetocomponent">Migrate To Component</string>
+    <string name="buttonnav">Button Navigation</string>
 </resources>
